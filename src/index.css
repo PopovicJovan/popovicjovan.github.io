@@ -19,12 +19,11 @@ code {
 .main-page-color{
   background-color: #000000;
 }
-nav{
+.nav-md{
   height: 100px;
   width: 1200px;
   margin: auto;
   background-color: transparent;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -77,19 +76,61 @@ nav{
     margin: 0;
 }
 
-#about-content{
+#about-content>p{
   font-size: 20px;
   font-family: 'bree-serif';
   color: #fff;
   letter-spacing: 3px;
-  padding: 0;
-  margin: 1rem 0 0 0;
 }
 
 #about-me{
   margin-top: 3rem;
 }
+@media (max-width: 768px) {
+  #main-page-content{
+    width: 80% !important;
+  }
+
+  #about-content>p{
+    font-size: 16px;
+  }
+
+  #about-head{
+    font-size: 30px;
+  }
+
+  #nav-links>a{
+    font-size: 16px;
+    padding: .5rem;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px){
+  .nav-md{
+    width: 90%;
+  }
+  #nav-links{
+    width: 75% !important;
+  }
+}
+
 
 #hi{
   font-size: 24px;
+}
+
+.nav-sm{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+}
+
+@media (height <= 992px) {
+  #Buttons{
+    width: 50% !important;
+  }
 }

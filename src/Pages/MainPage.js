@@ -9,7 +9,7 @@ const MainPage = () => {
                 </div>
                 <div id="about-me">
                     <p id="about-head">ABOUT ME</p>
-                    <p id="about-content">
+                    <div id="about-content">
                         <p id="hi" className="p-1 m-0">Hi there! 👋</p>
                         <p className="p-1 m-0">
                             I am Jovan Popovic, based in Podgorica, Montenegro and currently high school student.
@@ -29,7 +29,7 @@ const MainPage = () => {
                         <p className="p-1 m-0">
                             If you’re looking for someone who combines technical expertise with creativity and a problem-solving mindset, feel free to reach out. Let’s build something amazing together!
                         </p>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
