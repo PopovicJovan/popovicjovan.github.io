@@ -1,0 +1,95 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*overflow: hidden !important;*/
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-page-color{
+  background-color: #000000;
+}
+nav{
+  height: 100px;
+  width: 1200px;
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-div{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  font-size: 30px;
+  font-family: 'inria-serif';
+  color: #fff;
+}
+
+#nav-links>a{
+  text-decoration: none;
+  font-family: 'inria-serif';
+  color: #fff;
+  font-size: 24px;
+}
+
+.nav-link-button-text{
+  margin: 0;
+  padding: 20px 10px 20px 10px;
+}
+
+.my-image{
+  margin-top: 2.5rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("../src/Images/me.jpg");
+  background-size: contain;
+}
+
+#main-page-content{
+  width: 60%;
+  margin: auto;
+}
+
+#about-head{
+    font-size: 40px;
+    font-family: 'bree-serif';
+    color: #fff;
+    letter-spacing: 3px;
+    padding: 0;
+    margin: 0;
+}
+
+#about-content{
+  font-size: 20px;
+  font-family: 'bree-serif';
+  color: #fff;
+  letter-spacing: 3px;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+#about-me{
+  margin-top: 3rem;
+}
+
+#hi{
+  font-size: 24px;
+}
