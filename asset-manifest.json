@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PopovicJovan/static/css/main.656c082b.css",
+    "main.js": "/PopovicJovan/static/js/main.4f9e1285.js",
+    "static/js/488.9561f9b8.chunk.js": "/PopovicJovan/static/js/488.9561f9b8.chunk.js",
+    "static/media/no-image.jpg": "/PopovicJovan/static/media/no-image.cd4b77d13e7dfb1cfe59.jpg",
+    "static/media/me.jpg": "/PopovicJovan/static/media/me.52256e9b1e491b44dfaa.jpg",
+    "index.html": "/PopovicJovan/index.html",
+    "main.656c082b.css.map": "/PopovicJovan/static/css/main.656c082b.css.map",
+    "main.4f9e1285.js.map": "/PopovicJovan/static/js/main.4f9e1285.js.map",
+    "488.9561f9b8.chunk.js.map": "/PopovicJovan/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.656c082b.css",
+    "static/js/main.4f9e1285.js"
+  ]
+}
