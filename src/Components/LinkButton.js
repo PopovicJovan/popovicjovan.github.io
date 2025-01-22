@@ -7,7 +7,10 @@ const LinkButton = ({url, icon}) => {
         width: '43px',
         height: '43px',
     };
-    if (icon === 'chrome') url = 'https://jovan.popovic.pro/portfolio';
+    if (icon === 'chrome'){
+        url = 'https://jovan.popovic.pro/portfolio';
+        icon = "portfolio";
+    }
     return (
         <Button variant="contained" className="w-100 d-flex justify-content-center align-items-center"
                 onClick={() => handleClick(url)}>
