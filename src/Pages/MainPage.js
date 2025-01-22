@@ -1,10 +1,12 @@
 import NavBar from '../Components/NavBar';
+import Projects from "./Projects";
+import Tehnologies from "./Tehnologies";
 const MainPage = () => {
     return (
         <div className="main-page-color w-100">
             <NavBar/>
             <div className="d-flex flex-column justify-content-center align-items-center" id="main-page-content">
-                <div className="image-div">
+                <div className="image-div" id="home">
                     <div className="my-image"></div>
                 </div>
                 <div id="about-me">
@@ -31,6 +33,14 @@ const MainPage = () => {
                         </p>
                     </div>
                 </div>
+            </div>
+            <hr/>
+            <div className="w-100" id="projects">
+                <Projects/>
+            </div>
+            <hr/>
+            <div className="w-100 p-5" id="tehnologies">
+                <Tehnologies/>
             </div>
         </div>
     )

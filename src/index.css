@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*overflow: hidden !important;*/
+  background-color: black;
 }
 
 
@@ -46,6 +46,7 @@ code {
   font-family: 'inria-serif';
   color: #fff;
   font-size: 24px;
+  z-index: 100;
 }
 
 .nav-link-button-text{
@@ -133,4 +134,68 @@ code {
   #Buttons{
     width: 50% !important;
   }
+}
+
+.card-img-size{
+  height: 300px;
+}
+
+.my-button{
+  width: 40%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.my-button:hover{transform: scale(1.2);}
+.card:hover{transform: scale(1.05);}
+
+.card-size{
+  width:400px;
+  height: auto;
+}
+
+.card-body-text-size{
+  height: 100px;
+  overflow: hidden;
+}
+.card-img-darkness{
+  filter: brightness(.4);
+}
+
+hr{
+  color: white;
+  width: 70%;
+  margin: 2rem auto 2rem auto;
+}
+
+@media (max-width: 576px) {
+  .card-size{
+    width: 85%;
+  }
+  .card{
+    margin-top: 1rem;
+  }
+}
+
+.tehnology-box-size{
+  width: 25%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .tehnology-box-size{
+    width: 50%;
+  }
+}
+
+#tehnology-list{
+  background-color: transparent;
+  color: white;
 }
